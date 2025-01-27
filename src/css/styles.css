@@ -120,11 +120,9 @@ main {
     font-size: .8rem;
     margin-bottom: 5px;
 }
-
-.date-container {
+.job__date-container {
     flex: 1;
 }
-
 .job__date {
     font-size: .9rem;
     color: gray;
@@ -134,8 +132,6 @@ main {
     flex: 3;
     margin-left: 10px;
 }
-
-
 .job__company{
     color: lightgray;
 }
@@ -143,7 +139,50 @@ main {
     font-size: .8rem;
     margin-bottom: 5px;
     color: darkgrey;
+    list-style-type:square;
 }
+.job__responsability {
+    margin-bottom: 5px;
+    
+}
+
+
+
+.links {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.links__header {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+.links__links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.links__link {
+    display: flex;
+    align-items: center;
+    font-size: .9rem;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.links__link p {
+    flex: 1;
+
+}
+.links__link a {
+    color: grey;
+    text-decoration: none;
+    margin-left: 10px;
+    flex: 3;
+}
+.links__link a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 
 
 
