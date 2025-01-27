@@ -23,6 +23,8 @@ main {
     flex-direction: column;
     align-items: flex-start;
     padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
     max-width: 500px;
 }
 
@@ -189,14 +191,4 @@ main {
 p {
     color: gray;
     font-size: .75rem;
-}
-
-.text-link {
-    color: grey;
-    text-decoration: none;
-}
-
-.text-link:hover {
-    color: white;
-    text-decoration: underline;
 }
